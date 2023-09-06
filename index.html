@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<title>todo app</title>
+</head>
+
+<body>
+  <header>
+    <h1>Todos</h1>
+    <i class="fa-solid fa-plus icon plusIcon" title="Create new todo" onclick="createNewTodo()"></i>
+  </header>
+  <main>
+    <section id="enterTodo">
+      <form onsubmit="addTodo">
+        <input id="todoInput" type="text" placeholder="Enter todo" value="" />
+        <button type="submit" id="addTodoBtn" title="Add todo">ADD</button>
+      </form>
+    </section>
+    <section id="todos">
+
+    </section>
+  </main>
+  <footer>
+    <p>Created by <a href="https://twitter.com/iamdillion" target="_blank"> Manoj Kumar</a></p>
+    <div class="socials">
+      <a href="https://twitter.com/iamsidar07"><i class="fa-brands fa-x-twitter icon"></i></a>
+      <a href="https://github.com/iamsidar07"><i class="fa-brands fa-github icon"></i></a>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
