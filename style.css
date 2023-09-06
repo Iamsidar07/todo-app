@@ -60,7 +60,7 @@
 
  #enterTodo {
    display: none;
-   transition: display 250ms;
+   margin-top: 2rem;
  }
 
  #enterTodo form {
@@ -95,8 +95,6 @@
    font-size: 1.2rem;
    font-family: 'Bungee', sans-serif;
    color: #0f172a;
-   border-top-right-radius: 5px;
-   border-bottom-right-radius: 5px;
  }
 
  #enterTodo button:hover {
@@ -113,7 +111,7 @@
 
  #todos .todoItem {
    display: flex;
-   align-items: center;
+   align-items: baseline;
    justify-content: space-between;
    padding: 8px;
    border: 2px solid var(--form-color);
