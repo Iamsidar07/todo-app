@@ -4,7 +4,7 @@
  }
 
  html {
-   font-family: 'Noto Sans', sans-serif;
+   font-family: 'JetBrains Mono', sans-serif;
  }
 
  * {
@@ -61,8 +61,6 @@
  #enterTodo {
    display: none;
    margin-top: 2rem;
-   position: sticky;
-   top: 0;
 
  }
 
